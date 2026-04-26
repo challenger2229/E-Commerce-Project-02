@@ -1,4 +1,4 @@
-drop table if exists zepto;
+
 
 create table zepto (
 sku_id SERIAL PRIMARY KEY,

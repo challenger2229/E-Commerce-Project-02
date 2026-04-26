@@ -18,15 +18,16 @@ The following attributes were handled and processed within the PostgreSQL enviro
 
 Description of dataset columns : 
 
- sku_id : Synthetic Primary Key for unique product identification. 
- category : Broad classification (e.g., Fruits, Snacks, Beverages). 
- name : Product name as it appears on the application. 
- mrp : Maximum Retail Price (converted from paise to ₹). 
- discountPercent : The percentage reduction applied to the product. 
- availableQuantity : Current stock units available in the warehouse. 
- weightInGms : Physical weight of the item for logistics tracking. 
-outOfStock : Boolean flag indicating current availability. 
-
+ | Column | Description |
+| :--- | :--- |
+| **sku_id** | Synthetic Primary Key for unique product identification. |
+| **category** | Broad classification (e.g., Fruits, Snacks, Beverages). |
+| **name** | Product name as it appears on the application. |
+| **mrp** | Maximum Retail Price (converted from paise to ₹). |
+| **discountPercent** | The percentage reduction applied to the product. |
+| **availableQuantity** | Current stock units available in the warehouse. |
+| **weightInGms** | Physical weight of the item for logistics tracking. |
+| **outOfStock** | Boolean flag indicating current availability. |
 
 ## ⚙️ Methodological Workflow
 
